@@ -1,0 +1,9 @@
+use dbsensores;
+create table data_arduino(
+    id int primary key auto_increment,
+    humedad int(2),
+    temperatura float(3),
+    sonido int(2),
+    hora datetime,
+    sensor int(1)    
+);
