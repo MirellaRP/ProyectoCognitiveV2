@@ -12,10 +12,10 @@ const path = require('path');
 const mysql = require('mysql');
 //Create Connection
 const conn = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'dbsensores'
+  host: 'sql5.freesqldatabase.com',
+  user: 'sql5504999',
+  password: 'KB4XfwgJP1',
+  database: 'sql5504999'
 });
 
 //connect to database
